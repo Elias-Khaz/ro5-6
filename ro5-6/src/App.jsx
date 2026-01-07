@@ -1,6 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import JokeGame from "./components/JokeGame";
 
+function App() {
+  return (
+    <div>
+      <JokeGame />
+    </div>
+  );
+}
 
-
-export default App
+export default App;
